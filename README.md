@@ -2,7 +2,17 @@
 
 Predicting customers likely to make no purchase in the next 60 days and prioritizing them for retention campaigns.
 
-**ROC-AUC: 0.815** · **Top-10% Precision: 96.4%** · **Top-10% Lift: 1.35×** · **Top-30% Capture: 38.9%**
+**ROC-AUC: 0.815** · **Top-10% Precision: 96.4%** · **Top-10% Lift: 1.35×** · 
+
+## Key Results
+
+| Metric | Result |
+|---|---:|
+| ROC-AUC | 0.815 |
+| Accuracy | 79.4% |
+| Top-10% Precision | 96.4% |
+| Top-10% Lift | 1.35× |
+| Top-30% Capture | 38.9% |
 
 
 ## Project Overview
