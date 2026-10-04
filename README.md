@@ -300,7 +300,7 @@ The notebook contains the complete workflow:
 - Customer prioritization
 
 ## Project Structure
-
+```
 retention-lab/
 ├── data/
 │   └── raw/
@@ -309,7 +309,7 @@ retention-lab/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
+```
 
 - `data/raw/` — raw dataset used for the analysis
 - `RetentionLab.ipynb` — complete analysis and modeling workflow
