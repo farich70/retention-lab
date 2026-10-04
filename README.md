@@ -121,7 +121,7 @@ For each prediction date:
 
 The target was defined as:
 
-churn_next_60d = 1  → no purchase in the next 60 days
+churn_next_60d = 1  → no purchase in the next 60 days  
 churn_next_60d = 0  → at least one purchase in the next 60 days
 
 ## Modeling
