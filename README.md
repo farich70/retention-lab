@@ -68,19 +68,8 @@ The analysis keeps valid purchase transactions by applying the following filters
 
 Revenue was calculated as:
 
-```text
 Revenue = Quantity × Price
 
-## Key Results
-
-| Metric | Result |
-|---|---:|
-| Final model | Random Forest |
-| ROC-AUC | 0.815 |
-| Test accuracy | 79.4% |
-| Top-10% precision | 96.4% |
-| Top-10% lift | 1.35× |
-| Top-30% capture | 38.9% |
 
 The final model was evaluated on a held-out chronological test period. The classification threshold was selected using a separate chronological validation period.
 
@@ -132,7 +121,6 @@ For each prediction date:
 
 The target was defined as:
 
-```text
 churn_next_60d = 1  → no purchase in the next 60 days
 churn_next_60d = 0  → at least one purchase in the next 60 days
 
@@ -313,7 +301,6 @@ The notebook contains the complete workflow:
 
 ## Project Structure
 
-```text
 retention-lab/
 ├── data/
 │   └── raw/
